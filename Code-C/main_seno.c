@@ -1,3 +1,7 @@
+# Descrição
+Calculo do seno pelos termos.
+# Code
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -25,3 +29,10 @@ int main(int argc, char *argv[]) {
 	
 	return 0;
 }
+```
+# Saída
+```
+/tmp/o5hJzK2ftZ.o
+Digite a quantidade de termos: 3
+Seno de 1.571 (3 termos): 1.004524855534817
+```
