@@ -15,7 +15,7 @@ int main(){
     int menor;
     menor = vetor[0];
 
-    printf("Digite o valor de N");
+    printf("Digite o valor de N ");
     scanf("%i",&N);
 
     for(int i=0; i<10; i++){
