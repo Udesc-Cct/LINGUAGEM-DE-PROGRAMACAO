@@ -1,3 +1,7 @@
+# Descrição
+Descobrir numeros primos.
+# Code
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -30,9 +34,9 @@ int eh_primo( int x ){
 	int r = raiz_quad( x );
 	for( i = 2 ; i <= r ; i++ ){
 		if( x % i == 0 )
-			return 0; //  Falso, n�o � primo!
+			return 0; //  Falso, não é primo!
 	}
-	return 1; // Verdadeiro, � primo!
+	return 1; // Verdadeiro, é primo!
 }
 
 int raiz_quad( int x ){
@@ -44,4 +48,12 @@ int raiz_quad( int x ){
 	}
 	return cont;
 }
-
+```
+# Saída
+```
+/tmp/o5hJzK2ftZ.o
+Digite A: 3
+Digite B: 5
+1 : 3
+2 : 5
+```
