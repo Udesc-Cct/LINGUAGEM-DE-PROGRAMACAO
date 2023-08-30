@@ -1,4 +1,4 @@
-# Titulo
+# Descrição
 Teorema de Fibonacci em C de forma recursiva e muito bem optimizada
 # Código 
 ```c
