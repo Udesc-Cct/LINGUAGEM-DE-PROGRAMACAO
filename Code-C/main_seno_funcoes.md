@@ -1,3 +1,7 @@
+# Descrição
+Calculo do seno pelos termos com funções.
+# Code
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -39,5 +43,11 @@ double seno_rec( double x, int n, int i, double termo ){
 	else
 		return 0; // Encerra o processo.
 }
-
+```
+# Saída
+```
+/tmp/o5hJzK2ftZ.o
+Digite a quantidade de termos: 6
+Seno de 1.571 (6 termos): 0.999999943741051
+```
 
