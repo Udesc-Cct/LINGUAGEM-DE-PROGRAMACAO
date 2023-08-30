@@ -1,3 +1,7 @@
+# Descrição
+Descobrir numeros primos
+# Code
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -28,3 +32,12 @@ int main(int argc, char *argv[]) {
 		
 	return 0;
 }
+```
+# Saída
+```
+/tmp/o5hJzK2ftZ.o
+Digite A: 3
+Digite B: 5
+1 : 3
+2 : 5
+```
