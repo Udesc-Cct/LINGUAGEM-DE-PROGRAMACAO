@@ -1,3 +1,7 @@
+# Descrição
+???
+# Code
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -24,3 +28,11 @@ int main(int argc, char *argv[]) {
 	
 	return 0;
 }
+```
+# Saída
+```
+/tmp/o5hJzK2ftZ.o
+Digite o valor de X: 3
+Quantos termos? 4
+e elevado a 3.000 (4 termos): 16.375000000000000
+```
