@@ -13,11 +13,11 @@ Ensinamentos para aprender a linguagem C
 - [Exemplo de recursividade](./Code-C/main_exemplo_recursivo.md)
 - [Calculo Fatorial](./Code-C/main_fatorial_recursivo.md)
 - [Calculo do seno](./Code-C/main_seno.md)
-- [](./Code-C/)
-- [](./Code-C/)
-- [](./Code-C/)
-- [](./Code-C/)
-- [](./Code-C/)
+- [Calculo do seno (Com Funções)](./Code-C/main_seno_funcoes.md)
+- [Numeros Primos](./Code-C/main_serie_primos(2).md)
+- [Numeros Primos (Com Funções)](./Code-C/main_serie_primos.md)
+- [Solução Torres de Hanoi](./Code-C/main_torres_hanoi.md)
+- [Taylor](./Code-C/main_taylor_v1.md)
 
 
 
