@@ -1,3 +1,7 @@
+# Descrição
+Escreva um algoritmo que lê um valor inteiro N dado pelo usuário e um vetor de inteiros V de 10 posições. Busque o valor no vetor, se ele existe e informe a posição. Se N não existir , encontre o valor mais próximo existente. Use a diferença entre N e cada valor do vetor como métrica de distância
+# Code
+```c
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
@@ -32,3 +36,10 @@ int main(){
 
     return 0;
 }
+```
+# Saída
+```
+/tmp/o5hJzK2ftZ.o
+Digite o valor de N4
+O 4 valor existe na posicao 5O valor mais próximo de 4 é 5 na posição 3
+```
