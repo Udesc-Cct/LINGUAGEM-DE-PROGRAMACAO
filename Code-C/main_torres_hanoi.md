@@ -1,3 +1,7 @@
+# Descrição
+Algoritmo para solução das trres de hanoi.
+# Code
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -21,3 +25,24 @@ void hanoi( int n, char origem, char destino, char aux ){
 		hanoi( n-1, aux, destino, origem );
 	}	
 }
+```
+# Saída
+```
+/tmp/o5hJzK2ftZ.o
+Quantos discos? 4
+Mova disco 1 de A para B.
+Mova disco 2 de A para C.
+Mova disco 1 de B para C.
+Mova disco 3 de A para B.
+Mova disco 1 de C para A.
+Mova disco 2 de C para B.
+Mova disco 1 de A para B.
+Mova disco 4 de A para C.
+Mova disco 1 de B para C.
+Mova disco 2 de B para A.
+Mova disco 1 de C para A.
+Mova disco 3 de B para C.
+Mova disco 1 de A para B.
+Mova disco 2 de A para C.
+Mova disco 1 de B para C.
+```
